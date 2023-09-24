@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>极迅游加速器</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="keywords" content="" />
+<meta name="description" content="">
+<link rel="stylesheet" href="static/css/layui.css">
+<link rel="stylesheet" href="static/css/index.css">
+<link rel='stylesheet'  href='static/css/index-1.css' />
+<link href='static/css/5ebab7eff629d8128832e3dc.css' rel='stylesheet' type='text/css' />
+<script type="text/javascript" src="static/js/jquery.min.js"></script>
+<script>
+(function(doc, win) {
+    var docEl = doc.documentElement,
+        isIOS = navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),
+        dpr = isIOS ? Math.min(win.devicePixelRatio, 3) : 1,
+        dpr = window.top === window.self ? dpr : 1, //被iframe引用时，禁止缩放
+        dpr = 1,
+        scale = 1 / dpr,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+    docEl.dataset.dpr = dpr;
+    var metaEl = doc.createElement('meta');
+    metaEl.name = 'viewport';
+    metaEl.content = 'initial-scale=' + scale + ',maximum-scale=' + scale + ', minimum-scale=' + scale;
+    docEl.firstElementChild.appendChild(metaEl);
+    var recalc = function() {
+        var width = docEl.clientWidth;
+        if (width / dpr > 750) {
+            width = 750 * dpr;
+        }
+        // 乘以100，px : rem = 100 : 1
+        docEl.style.fontSize = 100 * (width / 750) + 'px';
+    };
+    recalc()
+    if (!doc.addEventListener) return;
+    win.addEventListener(resizeEvt, recalc, false);
+})(document, window);
+</script>
+<script async src="static/js/5e1ccd2f31e54e7688623ef970fffdc7.js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-175917133-1');
+  gtag('config', 'AW-625476826');
+  var btn_gtag = "AW-625476826/R6ZFCNC2mNMBENqJoKoC"
+</script>
+<script type="text/javascript">
+	var channel = 'aa1';
+	$(document).ready(function() {
+	        var u = navigator.userAgent;
+			var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1;
+			var isAppleMobile = /iphone|ipad|ios/i.test(u.toLowerCase());
+			if(isAndroid){
+					var button = $('.downloadButton');
+					button.click(function() {
+		                location.href = "https://share.0que.cn/android/"+channel+"/download";
+						let callback = function(){}
+		                gtag('event', 'conversion', {
+							'send_to': btn_gtag,
+							'event_callback': callback
+						});                        
+						return false;
+		            });
+			}else if(isAppleMobile){
+					$('#one-bg').toggle();
+                	$("#ios-modal").toggle();
+			}
+            
+	});
+
+	function iosDownload(){
+		location.href = "/web/login.html?channel="+channel;
+	}
+
+	function closeWindow(){
+		$('#one-bg').toggle();
+		$("#ios-modal").toggle();
+	}
+</script>
+<script type="text/javascript">
+window._agl = window._agl || [];
+(function () {
+_agl.push(
+['production', '_f7L2XwGXjyszb4d1e2oxPybgD']
+);
+(function () {
+var agl = document.createElement('script');
+agl.type = 'text/javascript';
+agl.async = true;
+agl.src = 'https://fxgate.baidu.com/angelia/fcagl.js?production=_f7L2XwGXjyszb4d1e2oxPybgD';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(agl, s);
+})();
+})();
+</script>
+</head>
+<body>
+<a href="#" class="fixA">ios安装教程</a>    
+<div class="bignav" id="bignav">
+	<a href="/"  class="logo"><h1>极迅游加速器</h1></a>
+	<a href="down.html" class="downnow downloadButton" data-agl-cvt="" >立即下载</a>
+	<div class="clear"></div>
+</div>
+<div class="header">
+	<div class="headercc">
+		<a href="/"  class="logo"><h1>极迅游加速器</h1></a>
+		<div class="">
+			<div class="top_ad">
+				<h3 class="">极迅游加速器</h3>
+				<h4 class="css20ae87c94e1d59f">海量视频  一键加速  畅享精彩内容</h4>
+			</div>
+			<div class="down_btn" id="down_btn">
+				<div class="layui-col-md6">
+				  <a class="a1" data-agl-cvt="" href="down.html">Windows下载</a>
+				</div>
+				<div class="layui-col-md6">
+				  <a class="a2 downloadButton" data-agl-cvt="6" href="down.html">IOS下载</a>
+				</div>
+			</div>
+			<div class="down_btn" id="down_btn">
+				<div class="layui-col-md6">
+				  <a class="a3 downloadButton" data-agl-cvt="" href="down.html">Android下载</a>
+				</div>
+				<div class="layui-col-md6">
+				  <a class="a4" data-agl-cvt="" href="down.html">Mac下载</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="headercc2">
+		<div class="wrap">
+			<div class="top_ad">
+				<h1 class="">极迅游加速器</h1>
+				<h3 class="css20ae87c94e1d59f">海量视频 一键加速 畅享精彩内容</h3>
+			</div>
+			<img src="static/picture/ho_02.png" alt="" class="" />
+			<img src="static/picture/ho_03.png" alt="" class="" />
+		</div>
+	</div>
+</div>
+<div class="wrap bigdownbtnbox"><a href="#" class="downnow downloadButton"data-agl-cvt="6"></a></div>
+<div class="wrap setion0">
+	<div class="box">
+		<div class="head">
+			<h2>全自动均匀负载</h2>
+			<h3>全自动均匀负载，Azure、节点极速体验，精选高达1000Mbps带宽服务器。</h3>
+		</div>
+		<div class="body">
+			<img src="static/picture/ho_06.png" alt="" class="wap" />
+			<img src="static/picture/wp_03.png" alt="" class="pc" />
+		</div>
+	</div>
+</div>
+
+<div class="setion4 setion">
+	<div class="box">
+		<div class="head">
+			<h2>为什么选择我们</h2>
+			<h3></h3>
+		</div>
+		<div class="body">
+			<img src="static/picture/ho_08.png" alt="" class="wap" />
+		</div>
+	</div>
+</div>
+
+<div class="setion2 setion">
+	<div class="box">
+		<div class="head">
+			<h2>支持多个设备登陆</h2>
+			<h3>不再受设备数量限制，一个账号可以登录多个终端设备。无论您使用的是计算机、智能手机、平板电脑，都可以连接互联网。</h3>
+		</div>
+		<div class="body">
+			<img src="static/picture/ho_10.png" alt="" class="wap" />
+		</div>
+	</div>
+</div>
+
+<div class="wrap setion1 setion">
+	<div class="box">
+		<div class="head">
+			<h2>随意浏览喜爱内容</h2>
+			<h3>超快的浏览速度。</h3>
+		</div>
+		<div class="body">
+			<img src="static/picture/ho_12.png" alt="" class="wap" />
+			<img src="static/picture/wp_09.png" alt="" class="pc" />
+		</div>
+	</div>
+</div>
+
+<div class="setion6">
+	<div class="wrap">
+		<div class="layui-row layui-col-space5">
+			<div class="layui-col-md3">
+				<a><img src="static/picture/wp_08.png" alt="" class="" /></a>
+			</div>
+			<div class="layui-col-md3">
+				<a><img src="static/picture/wp_10.png" alt="" class="" /></a>
+			</div>
+			<div class="layui-col-md3">
+				<a><img src="static/picture/wp_12.png" alt="" class="" /></a>
+			</div>
+			<div class="layui-col-md3">
+				<a><img src="static/picture/wp_14.png" alt="" class="" /></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+	<div class="wrap">
+		<div class="layui-row" style="width:100%;">
+			<div class="layui-col-md6">
+				<a href="/" class="pc"><img src="static/picture/logo.png" /></a>
+			</div>
+			<div class="layui-col-md6">
+				<div class="p-3 p-sm-0">
+					<div class="tca">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="layui-row" style="width:100%;">
+			<div class="layui-col-md6">
+				<div class="col-light">
+					<div style="text-align: center;margin-top: 15px;">
+						<p style="font-size: 25px;">开发者：荆门市东宝区舟舟网络工作室</p>
+					 	<p style="font-size: 25px;">应用名称：极迅游加速器,更新时间：2021-1-6,版本号：版本3.2.22</p>
+					 	<a href="/privacy1.html" target="_blank" style="color: white;"><p style="font-size: 18px;">隐私协议</p></a>
+					 	<a href="/privacy2.html" target="_blank" style="color: white;"><p style="font-size: 18px;">用户权限</p></a>
+	 
+				</div>
+				</div>
+			</div>
+			<div class="layui-col-md6">
+				<div class="shejiao">
+				</div>
+			</div>
+		</div>
+		
+		<div class="clear"></div>
+	</div>
+</div>
+
+	<div class="one-bg" id="one-bg"></div>
+	<div class="bootstrap-modal ios-modal" id="ios-modal">
+
+	    <div id="ios-modal-section" style="position: absolute;">
+	    	<a href="javascript:;" onclick="closeWindow()" style="position: inherit;right: 0;height: 40px;width: 40px;font-size: 30px;"><div >x</div></a>
+	        <div class="share">
+	            <h1 class="share-title"> 重要通知</h1>
+	            <h1 class="share-paragraph">
+	                由于国内政策原因，苹果暂不支持国内AppStore直接下载客户端，我们推出了网页版的解决方案。
+	请用户点击“去注册”，使用手机号码进行注册后，按照用户帮助的引导进行操作即可。
+	            </h1>
+
+	            <div>
+	            <a href="javascript:;" data-agl-cvt="6" onclick="iosDownload()"><div class="btn-close close-bootstrap-modal">去注册</div></a>
+	            </div>
+	        </div>
+	    </div>
+
+	</div>
+
+<script type="text/javascript">
+let u = navigator.userAgent;
+let isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //g
+let isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+if (isAndroid) {
+    $('.fixA').css({'display':'none'});
+}
+if (isIOS) {
+　　$('.fixA').css({'display':'block'});
+}
+</script>
+<script src="static/js/layui.js" charset="utf-8"></script>
+<script>
+layui.use(['element','form'], function(){
+  var $ = layui.jquery,element = layui.element,layer = layui.layer,form = layui.form;
+  
+	form.on('select(college)', function (data) {
+	   var message=$("select[name=languagesec").val();
+	   
+	   location.href=message;
+	});
+});
+</script>
+</body>
+</html>
